@@ -1,4 +1,4 @@
-for num in range(99999):
+for num in range(9999999):
     f = open("X%06dX" % num, "w")
     f.truncate(1024 * 1024) # 1MB
     f.close
